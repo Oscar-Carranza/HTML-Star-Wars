@@ -1,0 +1,146 @@
+body{
+    background-image:url(fondoBB8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-color: #17202A;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.LinksPags{
+    display:flex;
+    overflow: hidden;
+    width: 90%;
+    height=40%;
+    margin: 25px auto;
+    max-width:1000px;
+}
+
+.LinksPags2{
+    list-style:none;
+    margin:  0 20px;
+    transition: 0.5s;
+}
+
+.LinksPags3{
+    display:block;
+    position: relative;
+    padding: :5px;
+    font-family:sans-serif;
+    font-size: 18px;
+    color: peachpuff;
+    text-align:justify;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul:hover li a{
+    transform: scale(1.25);
+    opacity: .2;
+    filter: blur(5px);
+}
+
+ul li a:hover{
+ transform: scale(1.4);
+    opacity: 1;
+    filter: blur(0px);
+}
+
+
+
+h1{
+    color:royalblue;
+    font-size : 40px;
+    font-family : cursive;
+    text-align: center;
+}
+
+
+
+h3{
+    color:mediumaquamarine;
+    font-size : 23px;
+    font-family : sans-serif;
+    text-align: justify;
+}
+
+h4, .TituloTablas{
+    font-size: 25px;
+    color:brown;
+}
+
+
+.ElementosL1{
+    font-size: 19px;
+    font-family: cursive;
+    color: chartreuse;
+}
+
+.ElementosL2{
+    font-size: 19px;
+    font-family: cursive;
+    color:darkviolet;
+}
+
+.ElementosLprinc{
+    font-size: 21px;
+    font-family:sans-serif;
+    color:red;
+}
+
+
+table{
+    border:5px;
+    border-color:red;
+    word-spacing:10px;
+    font-family: cursive;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+tr td{
+    color:red;
+    border: 2px solid;
+    border-color:brown;
+    text-align: center;
+}
+
+    
+
+table td:hover{
+    background: black;
+    color: skyblue;
+}
+
+a:link{
+    /*Color cuando aun no se visita la página*/
+    color:red;
+}
+
+a:visited{
+    /*Color cuando ya se visitó la página*/
+    color:peachpuff;
+}
+
+a:active{
+    /*Color cuando doy un click con el mouse y me mantengo sin soltar*/
+    color:darkorange;
+}
+
+.linkInternos: link, .linkInternos: visited{
+    color:fuchsia;
+}
+
+footer{
+    background: black;
+    color:white;
+    clear:both;/*limpiamos float left*/
+    padding: 10px 0px;
+    text-align: center;
+    
+}

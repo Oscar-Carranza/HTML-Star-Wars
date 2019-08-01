@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<! --Proyecto HTML, CSS y JS 2019-1 -->
+<html>
+    <head lang="es-ES">
+        
+        <title>STAR WARS</title>
+        
+        <meta charset="UTF-8"/>
+        
+        <link rel="shorcut icon" type="image/x-icon" href="R2D2-icon.png">
+        
+        <link rel="stylesheet" type="text/css" href="HojaDeEstilos4.css">
+        
+        <meta name="author" content="Oscar Carrannza"/>
+        
+        <meta name="copyright" content="UNAM FI Laboratotio Multimedia"/>
+        
+        <meta name="keyword" content="Star Wars, Guerra de las Galaxias, LucasFilm"/>
+        
+        <meta name="description" content="Esta es mi página web en la que muestro contenido de una de las mejores películas de todos los tiempo: STAR WARS"/>
+        
+    </head>
+    
+    <body >
+        <script>
+            alert("No será posible el envio del formulario por razones de implementación.");
+        </script>
+        <embed src="Star%20Wars-%20The%20Imperial%20March%20(Darth%20Vaders%20Theme).mp3" hidden="true" autostart="false" loop="false" volume="60">
+        <br>
+        <div class="LinksPags">
+        <!-- Links a otras páginas -->
+            <ul>
+                <li> <a href="Pagina1Proyecto.html"> INICIO </a> </li>
+                <li><a href="Pagina2Proyecto.html"> PERSONAJES </a></li>
+                <li><a href="Pagina3Proyecto.html"> VENTA DE PELICULAS </a> </li>
+                <li><a href="Pagina4Proyecto.html"> SER PARTE DE LA COMUNIDAD SW </a></li>
+            </ul>
+        </div>
+        
+        <h1>STAR WARS: SER PARTE DE LA COMUNIDAD SW</h1>
+        
+        <h2>Formulario</h2>
+        
+        <p class="instrucciones">Llenar el siguiente formulario para recibir contenido exclusivo de STAR WARS</p>
+        <p class="instrucciones">Contenido válido solo para países hisponohablantes de Norteamérica y Centroamérica</p>
+        
+        <img src="iamggif1.gif" alt="Que la fuerza te acompañe" id="IMAGS">
+        
+        <br><br>
+        
+        <form action="ERROR" method="post">
+        
+        <label for="nombre"><strong> Ingresa tu(s) nombre(s): </strong> </label>
+        <input type="text" placeholder="Escribe tu(s) nombre(s)" id="nombre" onfocus="color_campo(this)">
+   
+        <script>
+            function color_campo(e) {
+                e.style.background = "skyblue";
+            }
+        </script>
+            
+        <br><br>
+        
+        <label for="apellidoPat"><strong>Ingresa tu Apellido Paterno: </strong></label>
+        <input type="text" placeholder="Escribe tu apellido paterno:" id="apellidoPat" onfocus="color_campo(this)">
+        
+        <script>
+            function color_campo(e) {
+                e.style.background = "skyblue"         }
+        </script>
+            
+        <br><br>
+            
+        <label for="apellidoMat"><strong>Ingresa tu Apellido materno: </strong></label>
+        <input type="text" placeholder="Escribe tu apellido materno:" id="apellidoMat" onfocus="color_campo(this)">
+        
+        <script>
+            function color_campo(e) {
+                e.style.background = "skyblue"         }
+        </script>
+        
+        <br><br>
+            
+            
+        <label for="edad"><strong>Edad:</strong> </label>
+        <input type="text" placeholder="Escribe tu edad" id="edad" onfocus="color_campo(this)">
+        
+        <script>
+            function color_campo(e) {
+                e.style.background = "skyblue"         }
+        </script>
+        
+        <br><br>
+            
+            
+        <label for="tel"><strong>Teléfono: </strong></label>
+        <input type="text" placeholder="Escribe tu telefono" id="tel" onfocus="color_campo(this)">
+            
+        <br><br>
+            
+        <label for="email"><strong>Email: </strong></label>
+        <input type="email" placeholder="Escribe tu email" id="email" onfocus="color_campo(this)">
+        
+        <script>
+            function color_campo(e) {
+                e.style.background = "skyblue"         }
+        </script>
+        
+        <br><br>
+        
+        <input type="checkbox" name="Check" size="15px">Quiero recibir notificaciones de noticias nuevas
+            
+        <br><br>
+            
+        
+        <label for="Pais">Selecciona tu país:</label>    
+        <select name="Pais">
+            <option value="1">México</option>
+            <option value="2">Guatemala</option>
+            <option value="3">Belice</option>
+            <option value="4">Honduras</option>
+            <option value="5">El Salvador</option>
+            <option value="6">Nicaragua</option>
+            <option value="7">Costa Rica</option>
+            <option value="8">Panamá</option>
+        </select>
+
+        <br><br>
+        
+        <label for="mensaje">Danos tu opinión acerca del contenido: </label>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+            
+        <br><br>
+        
+        <input type="submit" value="Enviar" class="botSEND">
+
+        
+        </form>
+
+        <br><br><br><br>
+        <br><br><br><br>
+
+
+        <img src="iamggif2.gif" alt="Que la fuerza te acompañe" id="IMAGS">
+        
+        <br><br>
+            <a href="https://starwars.com" id="bot" target="_blank">Página oficial STAR WARS</a>
+        
+        <br><br>
+        <button align="center" id="botHORA" onclick="document.getElementById('hora').innerHTML=Date()">Da click para saber la hora local</button>
+
+        <p id="hora" align="center"></p>
+        <br><br>
+        <footer>
+            
+             <p>Oscar Carranza©</p>
+         </footer>
+        
+    </body>
+    
+</html>

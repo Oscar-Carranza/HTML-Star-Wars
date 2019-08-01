@@ -1,0 +1,176 @@
+body{
+    
+    background: black;
+    color:white;
+}
+
+h1{
+    color:royalblue;
+    font-size : 40px;
+    font-family : cursive;
+    text-align: center;
+}
+
+h2{
+    color:cadetblue;
+    font-size : 30px;
+    font-family : monospace;
+    text-align: center;
+}
+
+.instrucciones{
+    font-family: sans-serif;
+    text-align: center;
+    font-style: oblique;
+    font-variant:small-caps;
+}
+
+#IMAGS{
+    width= 120px;
+    height: 250px;
+    border: none;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    display:flex;
+    overflow: hidden;
+    width: 90%;
+    height=40%;
+    margin: 25px auto;
+    max-width:1000px;
+} 
+
+ul li{
+    list-style: none;
+    margin:  0 20px;
+    transition: 0.5s;
+}
+
+ul li a{
+    display:block;
+    position: relative;
+    padding: :5px;
+    font-family:sans-serif;
+    font-size: 18px;
+    color: peachpuff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul:hover li a{
+    transform: scale(1.25);
+    opacity: .2;
+    filter: blur(5px);
+}
+
+ul li a:hover{
+ transform: scale(1.6);
+    opacity: 1;
+    filter: blur(0px);
+}
+
+
+.botSEND{
+    width: 160px;
+    height: 45px;
+    text-align:center;
+    line-height: 6px;
+    color: white;
+    font-size: 21px;
+    text-transform:uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: linear-gradient(15deg, red, yellow, orange, red);
+    background-size: 300%;
+    border-radius: 100px;
+}
+
+#bot{
+    transform: translatescale(-60%, -60%);
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    font-size: 33px;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: linear-gradient(10deg, blue, aquamarine, green, blue);
+    background-size: 300%;
+    border-radius: 90px;
+}
+
+#botHORA{
+    transform: translatescale();
+    width: 500px;
+    height: 40px;
+    text-align:center;
+    line-height: 6px;
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: linear-gradient(15deg, purple, blue, purple, violet);
+    background-size: 350%;
+    border-radius: 100px;
+}
+
+footer{
+    background: gray;
+    color:white;
+    clear:both;/*limpiamos float left*/
+    padding: 10px 0px;
+    text-align: center;
+    
+}
+
+form{
+    /*Ajustamos el formulario */
+    width:30%;
+    border: 1px solid #ccc;
+    padding:45px; 
+    margin:20px;
+    text-align: center;
+    width= 120px;
+    height: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+label{
+    font-size: 15px;
+    display:block; /*lo pone arriba del cuadro*/
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+textarea{
+    resize: horizontal;
+    max-height: 400px;
+    min-height: 100px;
+}
+
+input, textarea{
+    margin-bottom: 20px;
+    width:auto;
+    padding: 20px;
+    box-sizing: border-box; 
+    border: 1px, solid;
+}
+
+
+
+
+
+
+
